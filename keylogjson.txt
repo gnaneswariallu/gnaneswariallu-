@@ -1,0 +1,27 @@
+Including link: https://www.geeksforgeeks.org/
+
+"import json
+ 
+# Opening JSON file
+
+f = open('data.json',)
+ 
+# returns JSON object as
+# a dictionary
+
+data = json.load(f)
+ 
+# Iterating through the json
+# list
+
+for i in data['emp_details']:
+
+    print(i)
+ 
+# Closing file
+f.close()
+Output:
+
+
+"
+ https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/#:~:text=Python3-,import%20json,Output%3A,-Convert%20Python%20Dict
